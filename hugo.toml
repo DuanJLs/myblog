@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 defaultContentLanguage = "zh-cn"
 languageCode = 'zh-CN'
 hasCJKlanguage = true
+publishDir = 'docs'
 title = '我的全新 Hugo 网站'
 
 theme = "FeelIt"
