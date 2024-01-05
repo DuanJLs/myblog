@@ -1,0 +1,10 @@
+baseURL = 'https://example.org/'
+defaultContentLanguage = "zh-cn"
+languageCode = 'zh-CN'
+hasCJKlanguage = true
+title = '我的全新 Hugo 网站'
+
+theme = "FeelIt"
+
+[params]
+version = "1.0.2"
