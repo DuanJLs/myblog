@@ -1,25 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://duanjls.github.io/myblog/en/sitemap.xml</loc>
-    
-      <lastmod>2024-01-05T18:12:03+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://duanjls.github.io/myblog/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2024-01-05T18:12:03+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://duanjls.github.io/myblog/fr/sitemap.xml</loc>
-    
-      <lastmod>2024-01-05T18:12:03+08:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://duanjls.github.io/myblog/posts/</loc><lastmod>2024-01-05T18:12:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://duanjls.github.io/myblog/first_post/</loc><lastmod>2024-01-05T18:12:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://duanjls.github.io/myblog/</loc><lastmod>2024-01-05T18:12:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://duanjls.github.io/myblog/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://duanjls.github.io/myblog/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://duanjls.github.io/myblog/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

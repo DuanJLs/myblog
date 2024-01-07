@@ -15,17 +15,50 @@ keywords = ["Theme", "Hugo"]
 defaultTheme = "auto"
 dateFormat = "2006-01-02"
 
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "文章"
+    url = "/posts/"
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 3
+
+[params.app]
+    title = "FeelIt"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+
 [params.header]
  desktopMode = "fixed"
   mobileMode = "auto"
-
-[params.header.title]
+  [params.header.title]
       logo = "favicon.ico"
       name = "DuansBlog"
       pre = ""
       post = ""
       typeit = false
-      rss = true
+      rss = false
 
 [params.footer]
     enable = true
@@ -88,117 +121,341 @@ dateFormat = "2006-01-02"
       social = true
       disclaimer = ""
 
+[params.home.posts]
+enable = true
+paginate = 6
+imagePreview = true
+defaultHiddenFromHomePage = false
 
-[languages]
-  [languages.en]
-    weight = 1
-    title = "My New Hugo Site"
-    languageCode = "en"
-    languageName = "English"
-    [[languages.en.menu.main]]
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Posts"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.en.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.en.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "Categories"
-      url = "/categories/"
-      title = ""
-      weight = 3
+[params.oembed]
+    privacy = false
+    [params.oembed.facebook]
+      accessToken = ""
+    [params.oembed.twitter]
+      enableDNT = false
 
-  [languages.zh-cn]
-    weight = 2
-    title = "我的全新 Hugo 网站"
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    hasCJKLanguage = true
-    [[languages.zh-cn.menu.main]]
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "文章"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.zh-cn.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "标签"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.zh-cn.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "分类"
-      url = "/categories/"
-      title = ""
-      weight = 3
-      [[languages.zh-cn.menu.main]]
-      identifier = "about"
-      pre = ""
-      post = ""
-      name = "关于"
-      url = "/about/"
-      title = ""
-      weight = 4
+  [params.social]
+    GitHub = "DuanJLs"
+    Linkedin = ""
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Medium = ""
+    Gitlab = ""
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Tumblr = ""
+    Quora = ""
+    Keybase = ""
+    Pinterest = ""
+    Reddit = ""
+    Codepen = ""
+    FreeCodeCamp = ""
+    Bitbucket = ""
+    Stackoverflow = ""
+    Weibo = "u/5532332206"
+    Odnoklassniki = ""
+    VK = ""
+    Flickr = ""
+    Xing = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Bandcamp = ""
+    Paypal = ""
+    Fivehundredpx = ""
+    Mix = ""
+    Goodreads = ""
+    Lastfm = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = "DuanJLs"
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Jsfiddle = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Mastodon = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = "295534882?spm_id_from=333.1007.0.0"
+    Email = "duan2369466605@outlook.com"
+    Resume = "" #goo.gl id
 
-  [languages.fr]
-    weight = 3
-    title = "Mon nouveau site Hugo"
-    languageCode = "fr"
-    languageName = "Français"
-    [[languages.fr.menu.main]]
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Postes"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.fr.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Balises"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.fr.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "Catégories"
-      url = "/categories/"
-      title = ""
-      weight = 3
+    xda = ""
 
-[params.search]
-  enable = true
-    type = "lunr"
-  contentLength = 4000
-  placeholder = ""
-  maxResultLength = 10
-  snippetLength = 50
-  highlightTag = "em"
-  absoluteURL = false
-  [params.search.algolia]
-    index = ""
-    appID = ""
-    searchKey = ""
+    kaggle = ""
+
+    discord = ""
+
+    RSS = true
+
+[params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    cdnfontawesome = true
+    linkToMarkdown = true
+    improveArticle = ""
+    rssFullText = false
+
+[params.page.toc]
+      enable = true
+      keepStatic = true
+      auto = true
+
+[params.page.code]
+      copy = true
+      maxShownLines = 10
+
+[params.page.math]
+      enable = true
+
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+
+[params.page.mapbox]
+      accessToken = ""
+      lightStyle = "mapbox://styles/mapbox/light-v9"
+      darkStyle = "mapbox://styles/mapbox/dark-v9"
+      navigation = true
+      geolocate = true
+      scale = true
+      fullscreen = true
+
+[params.page.share]
+      enable = true
+      Twitter = false
+      Facebook = false
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = true
+      Instapaper = false
+      Pocket = false
+      Digg = false
+      Stumbleupon = false
+      Flipboard = false
+      Weibo = true
+      Renren = false
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = true
+      Skype = false
+      Trello = false
+      Mix = false
+
+[params.page.comment]
+      enable = true
+      [params.page.comment.disqus]
+        enable = false
+        shortname = ""
+
+[params.page.comment.vssue]
+        enable = false
+        platform = ""
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+
+[params.page.comment.gitalk]
+        enable = false
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+
+[params.page.comment.valine]
+        enable = false
+        appId = ""
+        appKey = ""
+        placeholder = ""
+        avatar = "mp"
+        meta= ""
+        pageSize = 10
+        lang = ""
+        visitor = true
+        recordIP = true
+        highlight = true
+        enableQQ = false
+        serverURLs = ""
+        emoji = ""
+
+[params.page.comment.facebook]
+        enable = false
+        width = "100%"
+        numPosts = 10
+        appId = ""
+        languageCode = "zh_CN"
+
+[params.page.comment.telegram]
+        enable = false
+        siteID = ""
+        limit = 5
+        height = ""
+        color = ""
+        colorful = true
+        dislikes = false
+        outlined = false
+
+[params.page.comment.commento]
+        enable = false
+
+[params.page.comment.utterances]
+        enable = false
+        repo = ""
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
+
+[params.page.library]
+      [params.page.library.css]
+      [params.page.library.js]
+
+[params.page.seo]
+      images = []
+      [params.page.seo.publisher]
+        name = ""
+        logoUrl = ""
+
+[params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+[params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+
+[params.seo]
+    image = ""
+    thumbnailUrl = ""
+
+[params.analytics]
+    enable = false
+    [params.analytics.google]
+      id = ""
+      anonymizeIP = true
+    [params.analytics.fathom]
+      id = ""
+      server = ""
+
+[params.analytics.goatcounter]
+      code = ""
+
+[params.cookieconsent]
+    enable = true
+    [params.cookieconsent.content]
+      message = ""
+      dismiss = ""
+      link = ""
+
+[params.cdn]
+    data = ""
+
+[params.compatibility]
+    polyfill = false
+    objectFit = false
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[author]
+  name = "DuanJL"
+  email = ""
+  link = ""
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]
+  posts = ":filename"
+
+[privacy]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
