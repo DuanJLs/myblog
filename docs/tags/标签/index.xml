@@ -1,0 +1,13 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>标签 - 标签 - 我的全新 Hugo 网站</title>
+        <link>https://duanjls.github.io/myblog/tags/%E6%A0%87%E7%AD%BE/</link>
+        <description>标签 - 标签 - 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://duanjls.github.io/myblog/tags/%E6%A0%87%E7%AD%BE/" rel="self" type="application/rss+xml" /><item>
+    <title>我的第一篇博客</title>
+    <link>https://duanjls.github.io/myblog/1/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate><guid>https://duanjls.github.io/myblog/1/</guid>
+    <description><![CDATA[为了测试posts页面，我写了我的第一篇博客]]></description>
+</item>
+</channel>
+</rss>

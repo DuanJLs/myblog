@@ -6,6 +6,7 @@ publishDir = 'docs'
 title = '我的全新 Hugo 网站'
 canonifyurls = true
 
+
 theme = "FeelIt"
 
 [params]
@@ -41,19 +42,11 @@ dateFormat = "2006-01-02"
     title = ""
     weight = 3
 
-[params.app]
-    title = "FeelIt"
-    noFavicon = false
-    svgFavicon = ""
-    themeColor = "#ffffff"
-    iconColor = "#5bbad5"
-    tileColor = "#da532c"
-
 [params.header]
- desktopMode = "fixed"
+ desktopMode = "auto"
   mobileMode = "auto"
   [params.header.title]
-      logo = "favicon.ico"
+      logo = "/favicon.ico"
       name = "DuansBlog"
       pre = ""
       post = ""
@@ -69,6 +62,14 @@ dateFormat = "2006-01-02"
     since = 2019
     icp = ""
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+[params.app]
+    title = "FeelIt"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
 
 [params.section]
     paginate = 20

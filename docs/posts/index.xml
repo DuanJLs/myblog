@@ -3,11 +3,11 @@
         <title>所有文章 - 我的全新 Hugo 网站</title>
         <link>https://duanjls.github.io/myblog/posts/</link>
         <description>所有文章 | 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 05 Jan 2024 18:12:03 &#43;0800</lastBuildDate><atom:link href="https://duanjls.github.io/myblog/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>第一篇博客</title>
-    <link>https://duanjls.github.io/myblog/first_post/</link>
-    <pubDate>Fri, 05 Jan 2024 18:12:03 &#43;0800</pubDate><guid>https://duanjls.github.io/myblog/first_post/</guid>
-    <description><![CDATA[我的第一个博客网站，2024年1月5日18:27]]></description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://duanjls.github.io/myblog/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>我的第一篇博客</title>
+    <link>https://duanjls.github.io/myblog/1/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate><guid>https://duanjls.github.io/myblog/1/</guid>
+    <description><![CDATA[为了测试posts页面，我写了我的第一篇博客]]></description>
 </item>
 </channel>
 </rss>
